@@ -123,11 +123,70 @@
     clear: left;
   }
   
+  .container2 {
+    text-transform: uppercase;
+    display: none;
+  }
+
 @media (max-width: 767px) {
   [class*="col-"]{
     max-width: 100%;
   }
+
   .titulo {
   	padding: 0.5em;
+  }
+
+  .container2 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    line-height: 0.7em;
+  }
+  
+  .titulo2 {
+  text-align: center;
+  color: #FF7C0F;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+  .linea {
+  width: 80%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.mapa {
+  height: 1em;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.titulo3 {
+  text-align: center;
+  color: #FF7C0F;
+  size: 164px;
+}
+
+.contador {
+  height: 10px;
+  
+}
+}
+
+
+/*
+.container2 .linea {
+  width: 80%;
+  padding-bottom: 0;
+  margin-top: -260px;
+  margin-left: 45px;
+}
+
   }
 };
