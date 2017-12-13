@@ -1,14 +1,4 @@
 
-#fondo{
-	background-color: #454545;
-	font-size: 16em; 
-}
-
-.titulo {
-	text-align: center;
-	color: #FF7C0F;
-}
-
 .progress{
   width: 150px;
   height: 150px;
@@ -131,11 +121,19 @@
 @media (max-width: 767px) {
   [class*="col-"]{
     max-width: 100%;
+    line-height: 0;
   }
 
-  .titulo {
-  	padding: 0.5em;
-  }
+  #fondo{
+  background-color: #454545;
+  font-size: 16em; 
+}
+
+.titulo {
+  text-align: center;
+  color: #FF7C0F;
+  padding: 0.5em;
+}
 
   .container2 {
     text-align: center;
@@ -148,7 +146,7 @@
   .titulo2 {
   text-align: center;
   color: #FF7C0F;
-  padding: 0;
+  padding: 5px;
   margin: 0;
   border: 0;
 }
@@ -158,12 +156,13 @@
   padding: 0;
   margin: 0;
   border: 0;
+  line-height: 0;
 }
 
 .mapa {
   height: 1em;
-  padding: 0;
-  margin: 0;
+  width: 1.7em;
+  margin: 50px;
   border: 0;
 }
 
