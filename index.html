@@ -7,12 +7,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="asset/css/main.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+
 	<title>Foodmap</title>
 </head>
 <body id="fondo">
 	<div class="container1">
 		<div class="row">
-			<div class="col-12 titulo">
+			<div class="col-xs-12 col-md-12 titulo">
 					<h1>Foodmap</h1>
 			</div>
 			<div class="col-md-3 col-sm-6">
@@ -30,27 +32,69 @@
 	</div>
 	<div class="container-fluid container2">
 		<div class="row">
-			<div class="col-12">
+			<div class="col-xs-12 col-md-12">
 				<div class="titulo2">
 					<h3 class="text-capitalize">Foodmap</h3>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-6">
+			<div class="col-xs-12 col-md-12">
 				<img src="asset/img/linea-blanca.png" class="linea">
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-10">
+			<div class="col-xs-12 col-md-12">
 				<iframe class="responsive-iframe mapa"src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13294.734693247412!2d-70.639792!3d-33.5875615!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1512516916421" width="400" height="300" frameborder="0" style="border:0" allowfullscreen class="mapa"></iframe>
 			</div>
-		</div>
-		<div class="contador">
-			<input class="prompt" type="text" name="search">
-			<div class="result"></div>
-		</div>
+
+			<div class="col-xs-12 col-md-12">
+				<select class="buscador">
+					<option>- -</option>
+					<option id="plato">Platos</option>
+					<option id="postres">Postres</option>
+					<option id="bebestibles">Bebestibles</option>
+				</select>
+				<div class="row platos contenedor">
+					<div class="col-xs-6 col-md-6">
+						<div id="platos" id="menu-overlay">
+							<img src="asset/img/comida1.jpg">
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">
+						<div id="platos" id="menu-overlay">
+							<img src="asset/img/comida2.jpg">
+						</div>
+					</div>
+				</div>
+				<div class="row postres contenedor">
+					<div class="col-xs-6 col-md-6">
+						<div id="postres" id="menu-overlay">
+							<img src="asset/img/postre1.jpg">
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">
+						<div id="postres" id="menu-overlay">
+							<img src="asset/img/postre2.jpg">
+						</div>
+					</div>
+				</div>
+				<div class="row bebestibles contenedor">
+					<div class="col-xs-6 col-md-6">
+						<div id="bebestibles" id="menu-overlay">
+							<img src="asset/img/bebestible1.jpg">
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">
+						<div id="bebestibles" id="menu-overlay">
+							<img src="asset/img/bebestible2.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
 	</div>
+
+
 			<!--
 			<h3 class="text-capitalize">Comida cerca de ti</h3>
 			<ul class="titulo3" data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="¿Qué quieres comer?">
@@ -66,6 +110,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="asset/js/app.js"></script>
   <script src="https://use.fontawesome.com/50f497f43c.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
 </body>
 </html>
 <script  src="

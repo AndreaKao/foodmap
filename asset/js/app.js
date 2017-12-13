@@ -21,10 +21,52 @@ $(document).ready(function(){
    $('.container2').delay(3100).fadeIn("slow");
 });
 
-$(document).bind("mobileinit", function(){
-  $.mobile.listview.prototype.options.filterPlaceholder = "Texto del PlaceHolder Cambiado Por Código";    
+$(document).ready(function(){
+	$("buscador").select2();
 });
 
+
+$('.contenedor').mouseover(function () {
+  $('.menu-overlay').show();
+}).mouseout(function () {
+  $('.menu-overlay').hide();
+});
+
+
+
+$('#platos').click(function(){
+  $('.postres').hide();
+  $('.bebestibles').hide();
+  });
+
+ $('#postres').click(function(){
+  $('.platos').hide();
+  $('.bebestibles').hide();
+  });
+
+ $('#bebestibles').click(function(){
+  $('.platos').hide();
+  $('.postres').hide();
+  });
+
+
+
+/*
+    $("#tablaLaWebera tbody>tr").hide();
+    $("#tablaLaWebera td:contiene-palabra('" + $(this).val() + "')").parent("tr").show();
+    }
+   else{
+    $("#tablaLaWebera tbody>tr").show();
+    }
+});*/
+
+/*
+jQuery.extend(jQuery.expr[":"],
+{
+  "contiene-palabra": function(elem, i, match, array) {
+    return (elem.textContent || elem.innerText || $(elem).text() || "").toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;
+    }
+});*/
 
 
 /*
