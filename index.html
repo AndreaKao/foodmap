@@ -34,7 +34,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-md-12">
 				<div class="titulo2">
-					<h3 class="text-capitalize">Foodmap</h3>
+					<h1 class="text-capitalize">Foodmap</h1>
 				</div>
 			</div>
 		</div>
@@ -47,47 +47,196 @@
 			<div class="col-xs-12 col-md-12">
 				<iframe class="responsive-iframe mapa"src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13294.734693247412!2d-70.639792!3d-33.5875615!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1512516916421" width="400" height="300" frameborder="0" style="border:0" allowfullscreen class="mapa"></iframe>
 			</div>
+			<div class="col-xs-12 col-md-12">
+				<h5 class="subtitulo">Comida cerca de ti</h5>
+				<select id="categorias">
+					<option value="0">filtrar restaurantes</option>
+					<option value="platos">Platos</option>
+					<option value="postres">Postres</option>
+					<option value="bebestibles">Bebestibles</option>
+				</select>
+				<div id="container"></div>
+			</div>
+		</div>
+
+			<div id="myModal" class="modal fade" role="dialog">
+  			<div class="modal-dialog">
+	    		<div class="modal-content">
+	      		<div class="modal-header">
+	        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+	        		<h1 class="modal-title">Plato Lorem</h1>
+	      		</div>
+	      		<div class="modal-body">
+	        		<iframe class="responsive-iframe mapa"src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13294.734693247412!2d-70.639792!3d-33.5875615!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1512516916421" width="400" height="300" frameborder="0" style="border:0" allowfullscreen class="mapa"></iframe>
+	        		<h5>Lorem para todos</h5>
+	        		<div class="col-xs-6 col-md-6">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores recusandae odio possimus distinctio explicabo dolore,</p>
+							</div>
+	        		<div class="col-xs-6 col-md-6">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem unde dolorem fugiat ratione,</p>
+							</div>
+	      		</div>
+	      		<div class="modal-footer">
+	        		<button type="button" class="btn btn-default boton" data-dismiss="modal">Llamar</button>
+	      		</div>
+	    		</div>
+  			</div>
+			</div>
+
+			<div id="myModal1" class="modal fade" role="dialog">
+  			<div class="modal-dialog">
+	    		<div class="modal-content">
+	      		<div class="modal-header">
+	        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+	        		<h1 class="modal-title">Plato 2</h1>
+	      		</div>
+	      		<div class="modal-body">
+	        		<iframe class="responsive-iframe mapa"src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13294.734693247412!2d-70.639792!3d-33.5875615!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1512516916421" width="400" height="300" frameborder="0" style="border:0" allowfullscreen class="mapa"></iframe>
+	        		<h5>Lorem para todos</h5>
+	        		<div class="col-xs-6 col-md-6">
+								<p>Lorem ipsum dolor sit amet,</p>
+							</div>
+	        		<div class="col-xs-6 col-md-6">
+								<p>Lorem ipsum dolor sit amet,</p>
+							</div>
+	      		</div>
+	      		<div class="modal-footer">
+	        		<button type="button" class="btn btn-default boton" data-dismiss="modal">Llamar</button>
+	      		</div>
+	    		</div>
+  			</div>
+			</div>
+
+			<div id="myModal2" class="modal fade" role="dialog">
+  			<div class="modal-dialog">
+	    		<div class="modal-content">
+	      		<div class="modal-header">
+	        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+	        		<h1 class="modal-title">Postre 1</h1>
+	      		</div>
+	      		<div class="modal-body">
+	        		<iframe class="responsive-iframe mapa"src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13294.734693247412!2d-70.639792!3d-33.5875615!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1512516916421" width="400" height="300" frameborder="0" style="border:0" allowfullscreen class="mapa"></iframe>
+	        		<h5>Lorem para todos</h5>
+	        		<div class="col-xs-6 col-md-6">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas impedit, voluptatem libero.</p>
+							</div>
+	        		<div class="col-xs-6 col-md-6">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ab accusantium illo dignissimos modi necessitatibus,</p>
+							</div>
+	      		</div>
+	      		<div class="modal-footer">
+	        		<button type="button" class="btn btn-default boton" data-dismiss="modal">Llamar</button>
+	      		</div>
+	    		</div>
+  			</div>
+			</div>
+
+			<div id="myModal3" class="modal fade" role="dialog">
+  			<div class="modal-dialog">
+	    		<div class="modal-content">
+	      		<div class="modal-header">
+	        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+	        		<h1 class="modal-title">Postre 2</h1>
+	      		</div>
+	      		<div class="modal-body">
+	        		<iframe class="responsive-iframe mapa"src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13294.734693247412!2d-70.639792!3d-33.5875615!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1512516916421" width="400" height="300" frameborder="0" style="border:0" allowfullscreen class="mapa"></iframe>
+	        		<h5>Lorem para todos</h5>
+	        		<div class="col-xs-6 col-md-6">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas impedit, voluptatem libero.</p>
+							</div>
+	        		<div class="col-xs-6 col-md-6">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ab accusantium illo dignissimos modi necessitatibus,</p>
+							</div>
+	      		</div>
+	      		<div class="modal-footer">
+	        		<button type="button" class="btn btn-default boton" data-dismiss="modal">Llamar</button>
+	      		</div>
+	    		</div>
+  			</div>
+			</div>
+
+			<div id="myModal4" class="modal fade" role="dialog">
+  			<div class="modal-dialog">
+	    		<div class="modal-content">
+	      		<div class="modal-header">
+	        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+	        		<h1 class="modal-title">Bebestible 1</h1>
+	      		</div>
+	      		<div class="modal-body">
+	        		<iframe class="responsive-iframe mapa"src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13294.734693247412!2d-70.639792!3d-33.5875615!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1512516916421" width="400" height="300" frameborder="0" style="border:0" allowfullscreen class="mapa"></iframe>
+	        		<h5>Lorem para todos</h5>
+	        		<div class="col-xs-6 col-md-6">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quae inventore minus a voluptatem perspiciatis incidunt</p>
+							</div>
+	        		<div class="col-xs-6 col-md-6">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias totam excepturi veritatis eius! Corrupti accusamus possimus,</p>
+							</div>
+	      		</div>
+	      		<div class="modal-footer">
+	        		<button type="button" class="btn btn-default boton" data-dismiss="modal">Llamar</button>
+	      		</div>
+	    		</div>
+  			</div>
+			</div>
+
+			<div id="myModal5" class="modal fade" role="dialog">
+  			<div class="modal-dialog">
+	    		<div class="modal-content">
+	      		<div class="modal-header">
+	        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+	        		<h1 class="modal-title">Bebestible 2</h1>
+	      		</div>
+	      		<div class="modal-body">
+	        		<iframe class="responsive-iframe mapa"src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13294.734693247412!2d-70.639792!3d-33.5875615!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1512516916421" width="400" height="300" frameborder="0" style="border:0" allowfullscreen class="mapa"></iframe>
+	        		<h5>Lorem para todos</h5>
+	        		<div class="col-xs-6 col-md-6">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ipsam ullam maiores placeat expedita,</p>
+							</div>
+	        		<div class="col-xs-6 col-md-6">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eius voluptatum voluptatem magni rerum in,</p>
+							</div>
+	      		</div>
+	      		<div class="modal-footer">
+	        		<button type="button" class="btn btn-default boton" data-dismiss="modal">Llamar</button>
+	      		</div>
+	    		</div>
+  			</div>
+			</div>
 
 			<div class="col-xs-12 col-md-12">
-				<select class="buscador">
-					<option>- -</option>
-					<option id="plato">Platos</option>
-					<option id="postres">Postres</option>
-					<option id="bebestibles">Bebestibles</option>
-				</select>
 				<div class="row platos contenedor">
-					<div class="col-xs-6 col-md-6">
+					<div class="col-xs-6 col-md-6 menu">
 						<div id="platos" id="menu-overlay">
-							<img src="asset/img/comida1.jpg">
+							<img src="asset/img/comida1.jpg" data-toggle="modal" data-target="#myModal">
 						</div>
 					</div>
-					<div class="col-xs-6 col-md-6">
+					<div class="col-xs-6 col-md-6 menu">
 						<div id="platos" id="menu-overlay">
-							<img src="asset/img/comida2.jpg">
+							<img src="asset/img/comida2.jpg" data-toggle="modal" data-target="#myModal1">
 						</div>
 					</div>
 				</div>
 				<div class="row postres contenedor">
-					<div class="col-xs-6 col-md-6">
+					<div class="col-xs-6 col-md-6 menu">
 						<div id="postres" id="menu-overlay">
-							<img src="asset/img/postre1.jpg">
+							<img src="asset/img/postre1.jpg" data-toggle="modal" data-target="#myModal2">
 						</div>
 					</div>
-					<div class="col-xs-6 col-md-6">
+					<div class="col-xs-6 col-md-6 menu">
 						<div id="postres" id="menu-overlay">
-							<img src="asset/img/postre2.jpg">
+							<img src="asset/img/postre2.jpg" data-toggle="modal" data-target="#myModal3">
 						</div>
 					</div>
 				</div>
 				<div class="row bebestibles contenedor">
-					<div class="col-xs-6 col-md-6">
+					<div class="col-xs-6 col-md-6 menu">
 						<div id="bebestibles" id="menu-overlay">
-							<img src="asset/img/bebestible1.jpg">
+							<img src="asset/img/bebestible1.jpg" data-toggle="modal" data-target="#myModal4">
 						</div>
 					</div>
-					<div class="col-xs-6 col-md-6">
+					<div class="col-xs-6 col-md-6 menu">
 						<div id="bebestibles" id="menu-overlay">
-							<img src="asset/img/bebestible2.jpg">
+							<img src="asset/img/bebestible2.jpg" data-toggle="modal" data-target="#myModal5">
 						</div>
 					</div>
 				</div>
@@ -95,16 +244,6 @@
 	</div>
 
 
-			<!--
-			<h3 class="text-capitalize">Comida cerca de ti</h3>
-			<ul class="titulo3" data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="¿Qué quieres comer?">
-  			<li>Comida Cantonesa</li>
-  			<li>Comida Japonesa</li>					
-  			<li>Comida Indú</li>
-			</ul>
-		</div> -->
-	
-	
 	<!-- Enlaces de Script -->
 	<script src="asset/js/jquery-3.2.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -113,4 +252,3 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
 </body>
 </html>
-<script  src="
